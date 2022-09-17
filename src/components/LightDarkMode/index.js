@@ -13,12 +13,12 @@ class LightDarkMode extends Component {
         
        
       return (
-        this.setState(mode:'Darkmode')
+        this.setState({mode:'Darkmode'})
       )
     
 
     }
-    return( this.setState(mode:'Lightmode'))
+    return( this.setState({mode:'Lightmode'}))
 
 }
     render(){
